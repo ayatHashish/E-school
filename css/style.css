@@ -1,0 +1,502 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  
+  text-transform: capitalize;
+}
+
+.container {
+  padding: 15px;
+  margin: 50px;
+}
+/* start header*/
+header {
+    border-bottom: 1px solid rgb(236 228 228);
+    align-items: baseline;
+}
+header .nav-bar {
+    background-color: var(--black);
+    margin: 0px 0 14px;
+    display: inline-block;
+    width: 20%;
+}
+
+header small {
+  display: inline-block;
+  font-size:50px;
+  font-weight: bold;
+  margin: -6px 0;
+}
+
+header small span {
+  color: red;
+}
+
+header nav {
+  display: inline-block;
+  width: 79%;
+  
+}
+header button {
+    display: inline-block;
+    margin: 0 0 0 0;
+    
+  }
+  header nav ul{
+  display: inline-block;
+  width: 60%;
+  margin-left: 13%;
+
+  }
+
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  margin: 11px;
+}
+
+header nav .but{
+    display: inline-block;
+}
+/* header nav ul li a:hover {
+  color: var(--orenge);
+  background-color: var(--dark-blue);
+  padding: 8px;
+  border-bottom: 5px solid var(--orenge);
+} */
+
+
+
+
+/* end header*/
+
+/* start services section*/
+#services {
+  text-align: center;
+}
+
+#services .dec {
+  display: inline-block;
+  float: left;
+  width: 46%;
+  text-align: justify;
+  margin: 13% 0px 0px 0px;
+}
+#services .dec h2 {
+  font-size: 50px;
+}
+
+#services .dec h2 span {
+  font-size: 50px;
+  color: red;
+}
+
+#services .dec p {
+  margin: 32px 0;
+}
+
+#services .dec button,header button {
+  background-color: red;
+  width: 113px;
+  height: 33px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+#services img {
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+/* end ser*/
+
+/* start about*/
+#about,
+#introducing {
+  margin-top: -5%;
+  margin-bottom: 13%;
+  text-align: center;
+  background-color: #fefcfd;
+}
+
+#about img,
+#introducing img {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+#about .dec,
+#introducing .dec {
+  display: inline-block;
+  float: right;
+  width: 46%;
+  text-align: justify;
+  margin: 6% 19px 0px 22px;
+}
+
+#about .dec h2,
+#introducing .dec h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+#about .reading,
+#introducing .reading {
+  width: 75%;
+  height: 249px;
+  margin: 60px 71px;
+  border-radius: 12px;
+  box-shadow: 0px 12px 16px #bebebe, 0px 0px 0px #ffffff;
+  position: relative;
+}
+#about .reading .red-img,
+#introducing .reading .red-img {
+  width: 100px;
+  height: 100px;
+  background-color: #a58c70;
+  position: absolute;
+  top: 49px;
+  border-radius: 50%;
+  right: 41%;
+}
+#about .reading img,
+#introducing .reading img {
+  width: 66px;
+  border-radius: 50%;
+  margin: 15px;
+}
+#about .reading h3,
+#introducing .reading h3 {
+  position: absolute;
+  top: 65%;
+  right: 41%;
+  font-size: 34px;
+}
+
+#about .dec p,
+#introducing .dec p {
+  color: #a9a9a9;
+}
+
+/* end about*/
+
+/*start enrol*/
+/* start about*/
+#enroll {
+  text-align: center;
+  background-color: #ce4771;
+}
+
+#enroll img {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  position: relative;
+  bottom: 71px;
+}
+
+#enroll .dec {
+  display: inline-block;
+  float: left;
+  width: 46%;
+  text-align: justify;
+  margin: 6% 19px 0px 22px;
+}
+
+#enroll .dec h2 {
+  margin: 21px 0px;
+  font-size: 50px;
+  color: white;
+}
+
+#enroll .dec button {
+  width: 130px;
+  height: 43px;
+  color: white;
+  background-color: gray;
+  border: none;
+  border-radius: 7px;
+}
+
+/* end enroll*/
+
+/* start introducing*/
+#introducing {
+  background-color: #ffffff;
+}
+
+#introducing img {
+  float: right;
+  width: 28%;
+  margin: 14px 9%;
+}
+
+#introducing .dec {
+  float: left;
+}
+
+/* end introducing*/
+/* end about*/
+
+/* end about*/
+
+#student {
+  padding: 10px;
+}
+
+#student h1 {
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 50px;
+}
+
+#student .cardes{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#student .cardes .card {
+  display: inline-block;
+  width: 21%;
+  height: 367px;
+  margin: 0px 1px 0px 18px;
+  text-align: center;
+  padding: 2% 1%;
+
+}
+#student .cardes .card:hover {
+    border-radius: 43px;
+    background: #f5f5f5;
+    box-shadow:  7px 7px 44px #939393,
+                 -7px -7px 44px #ffffff;
+     
+  border-top: #bebebe;
+}
+#student .cardes .card .red-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin:auto;
+  margin: 70px 0px 0px 85px;
+}
+
+#student .cardes .card .red-img:hover{
+    background-color:#f6444a;
+}
+#student .cardes .card .red-img img {
+  width: 65px;
+  margin: 15px;
+}
+#student .cardes .card h3 {
+        font-size: 40px;
+      
+       
+}
+
+
+
+/*start footer*/
+
+footer {
+  margin-top: 11em;
+  background: #232b37;
+  color: white;
+  padding: 4em;
+}
+
+footer .d_grid {
+  display: grid;
+  grid-template-columns: 30% auto auto auto;
+}
+
+footer .d_grid .item {
+  justify-self: center;
+}
+
+
+
+footer .d_grid .about_item h1 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+footer .d_grid .about_item p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #cdcdcde0;
+  font-family: serif;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+}
+
+footer .d_grid .about_item .icons {
+  display: flex;
+  margin-top: 33px;
+}
+
+footer .d_grid .about_item .icons i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-size: 18px;
+  background: #ce3765;
+  transition: color 0.5s ease-in-out;
+}
+
+footer .d_grid .about_item .icons i:hover {
+  color: #adadad;
+}
+
+footer .d_grid .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer .d_grid .item ul {
+  list-style: none;
+}
+
+footer .d_grid .item ul li {
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* end footer*/
+
+
+
+
+
+
+ @media (min-width: 901px) and (max-width:1200px) {
+  .container {
+    padding: 12px;
+}
+
+section{
+  margin-top: 10px !important;
+}
+	header .nav-bar {
+    width: 22% !important;
+	}
+  header nav {
+    width: 77% !important; 
+}
+header small {
+
+  font-size: 33px;
+  margin: -6px 0;
+}
+header nav ul {
+ 
+  width: 73%;
+  margin-left: 0%;}
+  #services .dec button, header button {
+   
+    width: 79px;}
+
+/* service */
+#services .dec {
+  margin: 4% 0px 0px 0px;
+}
+
+#services .dec h2 {
+  font-size: 44px;
+}
+
+#services .dec button, header button {
+
+  width: 76px;}
+/* about*/
+
+
+#about .dec, #introducing .dec {
+  width: 46%;
+  margin: 0% 0px 0px -1px
+}
+#about .dec h2, #introducing .dec h2 {
+  font-size: 35px;
+}
+#about .reading .red-img, #introducing .reading .red-img {
+ 
+  right: 32%;
+}
+
+#about .reading h3, #introducing .reading h3 {
+  right: 32%;
+}
+#about .reading, #introducing .reading {
+  margin: 60px 53px;
+  
+}
+
+/*enrol*/
+#enroll img {
+  width: 41%;
+}
+
+#enroll .dec {
+  width: 57%;
+  margin: -1% 0px 0px 0px;
+}
+
+/* student*/
+#student .cardes .card .red-img {
+  margin: 69px 0px 0px 41px;
+}
+ }
+ @media(min-width: 500px) and (max-width:900px) {
+
+  header .nav-bar {
+    width: 17% !important;
+}
+header small {
+
+  font-size: 37px;
+}
+header nav {
+  width: 82% !important;
+}
+header nav ul {
+
+  width: 61%;
+  margin-left: 7%;
+}
+#services .dec h2 {
+  font-size: 40px;
+}
+
+
+#student .cardes .card {
+    width: 45%;}
+
+    #student .cardes .card .red-img {
+      margin: 70px 0px 0px 152px;
+  }
+	footer {
+		padding: 10px;
+	}
+	footer .d_grid .about_item {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+	footer .d_grid {
+		grid-template-columns: auto auto auto;
+	}
+	footer .d_grid .item {
+		margin-top: 2em;
+		justify-self: flex-start;
+	}
+}
